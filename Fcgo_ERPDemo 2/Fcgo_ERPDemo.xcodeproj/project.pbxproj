@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B96A1DC995F020EC3717502 /* Pods_Fcgo_ERPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647DF33E4ABB98D10732CA73 /* Pods_Fcgo_ERPDemo.framework */; };
+		5D52FCFE201EC7D70024CEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FCFD201EC7D70024CEBC /* AppDelegate.m */; };
+		5D52FD00201EC7D70024CEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D52FCFF201EC7D70024CEBC /* Assets.xcassets */; };
+		5D52FD03201EC7D70024CEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D52FD01201EC7D70024CEBC /* LaunchScreen.storyboard */; };
+		5D52FD06201EC7D70024CEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD05201EC7D70024CEBC /* main.m */; };
+		5D52FD10201EC7D70024CEBC /* Fcgo_ERPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD0F201EC7D70024CEBC /* Fcgo_ERPDemoTests.m */; };
+		5D52FD1B201EC7D70024CEBC /* Fcgo_ERPDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD1A201EC7D70024CEBC /* Fcgo_ERPDemoUITests.m */; };
+		5D52FD46201ED0680024CEBC /* Fcgo_ClassTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD30201ED0680024CEBC /* Fcgo_ClassTools.m */; };
+		5D52FD47201ED0680024CEBC /* Fcgo_IndexButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD32201ED0680024CEBC /* Fcgo_IndexButton.m */; };
+		5D52FD4A201ED0680024CEBC /* Fcgo_payTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD38201ED0680024CEBC /* Fcgo_payTools.m */; };
+		5D52FD4B201ED0680024CEBC /* Fcgo_publicNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD3A201ED0680024CEBC /* Fcgo_publicNetworkTools.m */; };
+		5D52FD4D201ED0680024CEBC /* Fcgo_RefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD3E201ED0680024CEBC /* Fcgo_RefreshNormalHeader.m */; };
+		5D52FD4E201ED0680024CEBC /* Fcgo_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD40201ED0680024CEBC /* Fcgo_Tools.m */; };
+		5D52FD4F201ED0680024CEBC /* Fcgo_UserTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD42201ED0680024CEBC /* Fcgo_UserTools.m */; };
+		5D52FD55201ED1EA0024CEBC /* Fcgo_AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD52201ED1EA0024CEBC /* Fcgo_AFHTTPSessionManager.m */; };
+		5D52FD56201ED1EA0024CEBC /* Fcgo_NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD54201ED1EA0024CEBC /* Fcgo_NetworkManager.m */; };
+		5D52FD5A201ED1FC0024CEBC /* Fcgo_BasicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD59201ED1FC0024CEBC /* Fcgo_BasicVC.m */; };
+		5D52FD62201ED4930024CEBC /* Fcgo_NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD61201ED4930024CEBC /* Fcgo_NavigationView.m */; };
+		5D52FD65201ED51B0024CEBC /* Fcgo_LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD64201ED51B0024CEBC /* Fcgo_LoginVC.m */; };
+		5D52FD68201ED5A60024CEBC /* Fcgo_BrokenNetworkOrNoDataControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD66201ED5A60024CEBC /* Fcgo_BrokenNetworkOrNoDataControl.m */; };
+		5D52FD6D201EEE460024CEBC /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD6C201EEE460024CEBC /* SSKeychain.m */; };
+		5D52FD77201EFF260024CEBC /* NSString+Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD70201EFF260024CEBC /* NSString+Request.m */; };
+		5D52FD78201EFF260024CEBC /* UILabel+Nature.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD72201EFF260024CEBC /* UILabel+Nature.m */; };
+		5D52FD79201EFF260024CEBC /* UITextField+CYAccessoryViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD74201EFF260024CEBC /* UITextField+CYAccessoryViewTextField.m */; };
+		5D52FD7A201EFF260024CEBC /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52FD76201EFF260024CEBC /* UIView+Line.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D52FD0C201EC7D70024CEBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D52FCF1201EC7D70024CEBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D52FCF8201EC7D70024CEBC;
+			remoteInfo = Fcgo_ERPDemo;
+		};
+		5D52FD17201EC7D70024CEBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D52FCF1201EC7D70024CEBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D52FCF8201EC7D70024CEBC;
+			remoteInfo = Fcgo_ERPDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D52FCF9201EC7D70024CEBC /* Fcgo_ERPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fcgo_ERPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D52FCFC201EC7D70024CEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D52FCFD201EC7D70024CEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D52FCFF201EC7D70024CEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D52FD02201EC7D70024CEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D52FD04201EC7D70024CEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D52FD05201EC7D70024CEBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D52FD0B201EC7D70024CEBC /* Fcgo_ERPDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fcgo_ERPDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D52FD0F201EC7D70024CEBC /* Fcgo_ERPDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fcgo_ERPDemoTests.m; sourceTree = "<group>"; };
+		5D52FD11201EC7D70024CEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D52FD16201EC7D70024CEBC /* Fcgo_ERPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fcgo_ERPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D52FD1A201EC7D70024CEBC /* Fcgo_ERPDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fcgo_ERPDemoUITests.m; sourceTree = "<group>"; };
+		5D52FD1C201EC7D70024CEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D52FD2F201ED0680024CEBC /* Fcgo_ClassTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_ClassTools.h; sourceTree = "<group>"; };
+		5D52FD30201ED0680024CEBC /* Fcgo_ClassTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_ClassTools.m; sourceTree = "<group>"; };
+		5D52FD31201ED0680024CEBC /* Fcgo_IndexButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_IndexButton.h; sourceTree = "<group>"; };
+		5D52FD32201ED0680024CEBC /* Fcgo_IndexButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_IndexButton.m; sourceTree = "<group>"; };
+		5D52FD37201ED0680024CEBC /* Fcgo_payTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_payTools.h; sourceTree = "<group>"; };
+		5D52FD38201ED0680024CEBC /* Fcgo_payTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_payTools.m; sourceTree = "<group>"; };
+		5D52FD39201ED0680024CEBC /* Fcgo_publicNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_publicNetworkTools.h; sourceTree = "<group>"; };
+		5D52FD3A201ED0680024CEBC /* Fcgo_publicNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_publicNetworkTools.m; sourceTree = "<group>"; };
+		5D52FD3D201ED0680024CEBC /* Fcgo_RefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_RefreshNormalHeader.h; sourceTree = "<group>"; };
+		5D52FD3E201ED0680024CEBC /* Fcgo_RefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_RefreshNormalHeader.m; sourceTree = "<group>"; };
+		5D52FD3F201ED0680024CEBC /* Fcgo_Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_Tools.h; sourceTree = "<group>"; };
+		5D52FD40201ED0680024CEBC /* Fcgo_Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_Tools.m; sourceTree = "<group>"; };
+		5D52FD41201ED0680024CEBC /* Fcgo_UserTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_UserTools.h; sourceTree = "<group>"; };
+		5D52FD42201ED0680024CEBC /* Fcgo_UserTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_UserTools.m; sourceTree = "<group>"; };
+		5D52FD51201ED1EA0024CEBC /* Fcgo_AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		5D52FD52201ED1EA0024CEBC /* Fcgo_AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		5D52FD53201ED1EA0024CEBC /* Fcgo_NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_NetworkManager.h; sourceTree = "<group>"; };
+		5D52FD54201ED1EA0024CEBC /* Fcgo_NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_NetworkManager.m; sourceTree = "<group>"; };
+		5D52FD58201ED1FC0024CEBC /* Fcgo_BasicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_BasicVC.h; sourceTree = "<group>"; };
+		5D52FD59201ED1FC0024CEBC /* Fcgo_BasicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_BasicVC.m; sourceTree = "<group>"; };
+		5D52FD5E201ED27C0024CEBC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5D52FD5F201ED3B00024CEBC /* Fcgo_Pch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fcgo_Pch.pch; sourceTree = "<group>"; };
+		5D52FD60201ED4930024CEBC /* Fcgo_NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_NavigationView.h; sourceTree = "<group>"; };
+		5D52FD61201ED4930024CEBC /* Fcgo_NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_NavigationView.m; sourceTree = "<group>"; };
+		5D52FD63201ED51B0024CEBC /* Fcgo_LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fcgo_LoginVC.h; sourceTree = "<group>"; };
+		5D52FD64201ED51B0024CEBC /* Fcgo_LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fcgo_LoginVC.m; sourceTree = "<group>"; };
+		5D52FD66201ED5A60024CEBC /* Fcgo_BrokenNetworkOrNoDataControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_BrokenNetworkOrNoDataControl.m; sourceTree = "<group>"; };
+		5D52FD67201ED5A60024CEBC /* Fcgo_BrokenNetworkOrNoDataControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_BrokenNetworkOrNoDataControl.h; sourceTree = "<group>"; };
+		5D52FD6B201EEE460024CEBC /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		5D52FD6C201EEE460024CEBC /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		5D52FD6F201EFF260024CEBC /* NSString+Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Request.h"; sourceTree = "<group>"; };
+		5D52FD70201EFF260024CEBC /* NSString+Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Request.m"; sourceTree = "<group>"; };
+		5D52FD71201EFF260024CEBC /* UILabel+Nature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Nature.h"; sourceTree = "<group>"; };
+		5D52FD72201EFF260024CEBC /* UILabel+Nature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Nature.m"; sourceTree = "<group>"; };
+		5D52FD73201EFF260024CEBC /* UITextField+CYAccessoryViewTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CYAccessoryViewTextField.h"; sourceTree = "<group>"; };
+		5D52FD74201EFF260024CEBC /* UITextField+CYAccessoryViewTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CYAccessoryViewTextField.m"; sourceTree = "<group>"; };
+		5D52FD75201EFF260024CEBC /* UIView+Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
+		5D52FD76201EFF260024CEBC /* UIView+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
+		647DF33E4ABB98D10732CA73 /* Pods_Fcgo_ERPDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fcgo_ERPDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		825CC322D0C5D14E6400D80E /* Pods-Fcgo_ERPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fcgo_ERPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fcgo_ERPDemo/Pods-Fcgo_ERPDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A5E41307FC3AE0B624E9805D /* Pods-Fcgo_ERPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fcgo_ERPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fcgo_ERPDemo/Pods-Fcgo_ERPDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D52FCF6201EC7D70024CEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B96A1DC995F020EC3717502 /* Pods_Fcgo_ERPDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D52FD08201EC7D70024CEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D52FD13201EC7D70024CEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D52FCF0201EC7D70024CEBC = {
+			isa = PBXGroup;
+			children = (
+				5D52FCFB201EC7D70024CEBC /* Fcgo_ERPDemo */,
+				5D52FD0E201EC7D70024CEBC /* Fcgo_ERPDemoTests */,
+				5D52FD19201EC7D70024CEBC /* Fcgo_ERPDemoUITests */,
+				5D52FCFA201EC7D70024CEBC /* Products */,
+				64E3E04A4DFFD1E772FDEBD8 /* Pods */,
+				D78397CDDA0FEEEE8A8C8D9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D52FCFA201EC7D70024CEBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FCF9201EC7D70024CEBC /* Fcgo_ERPDemo.app */,
+				5D52FD0B201EC7D70024CEBC /* Fcgo_ERPDemoTests.xctest */,
+				5D52FD16201EC7D70024CEBC /* Fcgo_ERPDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D52FCFB201EC7D70024CEBC /* Fcgo_ERPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FCFC201EC7D70024CEBC /* AppDelegate.h */,
+				5D52FCFD201EC7D70024CEBC /* AppDelegate.m */,
+				5D52FD57201ED1FC0024CEBC /* BasicClass */,
+				5D52FD6E201EFF250024CEBC /* category */,
+				5D52FD5B201ED2060024CEBC /* work */,
+				5D52FD50201ED1EA0024CEBC /* NetWork */,
+				5D52FD28201ED0680024CEBC /* Tools */,
+				5D52FD69201EEE460024CEBC /* files */,
+				5D52FCFF201EC7D70024CEBC /* Assets.xcassets */,
+				5D52FD01201EC7D70024CEBC /* LaunchScreen.storyboard */,
+				5D52FD5E201ED27C0024CEBC /* PrefixHeader.pch */,
+				5D52FD5F201ED3B00024CEBC /* Fcgo_Pch.pch */,
+				5D52FD04201EC7D70024CEBC /* Info.plist */,
+				5D52FD05201EC7D70024CEBC /* main.m */,
+			);
+			path = Fcgo_ERPDemo;
+			sourceTree = "<group>";
+		};
+		5D52FD0E201EC7D70024CEBC /* Fcgo_ERPDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FD0F201EC7D70024CEBC /* Fcgo_ERPDemoTests.m */,
+				5D52FD11201EC7D70024CEBC /* Info.plist */,
+			);
+			path = Fcgo_ERPDemoTests;
+			sourceTree = "<group>";
+		};
+		5D52FD19201EC7D70024CEBC /* Fcgo_ERPDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FD1A201EC7D70024CEBC /* Fcgo_ERPDemoUITests.m */,
+				5D52FD1C201EC7D70024CEBC /* Info.plist */,
+			);
+			path = Fcgo_ERPDemoUITests;
+			sourceTree = "<group>";
+		};
+		5D52FD28201ED0680024CEBC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FD2F201ED0680024CEBC /* Fcgo_ClassTools.h */,
+				5D52FD30201ED0680024CEBC /* Fcgo_ClassTools.m */,
+				5D52FD31201ED0680024CEBC /* Fcgo_IndexButton.h */,
+				5D52FD32201ED0680024CEBC /* Fcgo_IndexButton.m */,
+				5D52FD37201ED0680024CEBC /* Fcgo_payTools.h */,
+				5D52FD38201ED0680024CEBC /* Fcgo_payTools.m */,
+				5D52FD39201ED0680024CEBC /* Fcgo_publicNetworkTools.h */,
+				5D52FD3A201ED0680024CEBC /* Fcgo_publicNetworkTools.m */,
+				5D52FD3D201ED0680024CEBC /* Fcgo_RefreshNormalHeader.h */,
+				5D52FD3E201ED0680024CEBC /* Fcgo_RefreshNormalHeader.m */,
+				5D52FD3F201ED0680024CEBC /* Fcgo_Tools.h */,
+				5D52FD40201ED0680024CEBC /* Fcgo_Tools.m */,
+				5D52FD41201ED0680024CEBC /* Fcgo_UserTools.h */,
+				5D52FD42201ED0680024CEBC /* Fcgo_UserTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		5D52FD50201ED1EA0024CEBC /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FD51201ED1EA0024CEBC /* Fcgo_AFHTTPSessionManager.h */,
+				5D52FD52201ED1EA0024CEBC /* Fcgo_AFHTTPSessionManager.m */,
+				5D52FD53201ED1EA0024CEBC /* Fcgo_NetworkManager.h */,
+				5D52FD54201ED1EA0024CEBC /* Fcgo_NetworkManager.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		5D52FD57201ED1FC0024CEBC /* BasicClass */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FD58201ED1FC0024CEBC /* Fcgo_BasicVC.h */,
+				5D52FD59201ED1FC0024CEBC /* Fcgo_BasicVC.m */,
+				5D52FD60201ED4930024CEBC /* Fcgo_NavigationView.h */,
+				5D52FD67201ED5A60024CEBC /* Fcgo_BrokenNetworkOrNoDataControl.h */,
+				5D52FD66201ED5A60024CEBC /* Fcgo_BrokenNetworkOrNoDataControl.m */,
+				5D52FD61201ED4930024CEBC /* Fcgo_NavigationView.m */,
+			);
+			path = BasicClass;
+			sourceTree = "<group>";
+		};
+		5D52FD5B201ED2060024CEBC /* work */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FD5C201ED2060024CEBC /* loginAndResign */,
+				5D52FD5D201ED2060024CEBC /* Main */,
+			);
+			path = work;
+			sourceTree = "<group>";
+		};
+		5D52FD5C201ED2060024CEBC /* loginAndResign */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FD63201ED51B0024CEBC /* Fcgo_LoginVC.h */,
+				5D52FD64201ED51B0024CEBC /* Fcgo_LoginVC.m */,
+			);
+			path = loginAndResign;
+			sourceTree = "<group>";
+		};
+		5D52FD5D201ED2060024CEBC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5D52FD69201EEE460024CEBC /* files */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FD6A201EEE460024CEBC /* SSKeychain */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+		5D52FD6A201EEE460024CEBC /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FD6B201EEE460024CEBC /* SSKeychain.h */,
+				5D52FD6C201EEE460024CEBC /* SSKeychain.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		5D52FD6E201EFF250024CEBC /* category */ = {
+			isa = PBXGroup;
+			children = (
+				5D52FD6F201EFF260024CEBC /* NSString+Request.h */,
+				5D52FD70201EFF260024CEBC /* NSString+Request.m */,
+				5D52FD71201EFF260024CEBC /* UILabel+Nature.h */,
+				5D52FD72201EFF260024CEBC /* UILabel+Nature.m */,
+				5D52FD73201EFF260024CEBC /* UITextField+CYAccessoryViewTextField.h */,
+				5D52FD74201EFF260024CEBC /* UITextField+CYAccessoryViewTextField.m */,
+				5D52FD75201EFF260024CEBC /* UIView+Line.h */,
+				5D52FD76201EFF260024CEBC /* UIView+Line.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		64E3E04A4DFFD1E772FDEBD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				825CC322D0C5D14E6400D80E /* Pods-Fcgo_ERPDemo.debug.xcconfig */,
+				A5E41307FC3AE0B624E9805D /* Pods-Fcgo_ERPDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D78397CDDA0FEEEE8A8C8D9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				647DF33E4ABB98D10732CA73 /* Pods_Fcgo_ERPDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D52FCF8201EC7D70024CEBC /* Fcgo_ERPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D52FD1F201EC7D70024CEBC /* Build configuration list for PBXNativeTarget "Fcgo_ERPDemo" */;
+			buildPhases = (
+				A71E231BABC251EB2D638F08 /* [CP] Check Pods Manifest.lock */,
+				5D52FCF5201EC7D70024CEBC /* Sources */,
+				5D52FCF6201EC7D70024CEBC /* Frameworks */,
+				5D52FCF7201EC7D70024CEBC /* Resources */,
+				5CBA7C364A0DA4FBA15A24BB /* [CP] Embed Pods Frameworks */,
+				A426ADFBDDB62666F0D3B504 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fcgo_ERPDemo;
+			productName = Fcgo_ERPDemo;
+			productReference = 5D52FCF9201EC7D70024CEBC /* Fcgo_ERPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D52FD0A201EC7D70024CEBC /* Fcgo_ERPDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D52FD22201EC7D70024CEBC /* Build configuration list for PBXNativeTarget "Fcgo_ERPDemoTests" */;
+			buildPhases = (
+				5D52FD07201EC7D70024CEBC /* Sources */,
+				5D52FD08201EC7D70024CEBC /* Frameworks */,
+				5D52FD09201EC7D70024CEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D52FD0D201EC7D70024CEBC /* PBXTargetDependency */,
+			);
+			name = Fcgo_ERPDemoTests;
+			productName = Fcgo_ERPDemoTests;
+			productReference = 5D52FD0B201EC7D70024CEBC /* Fcgo_ERPDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D52FD15201EC7D70024CEBC /* Fcgo_ERPDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D52FD25201EC7D70024CEBC /* Build configuration list for PBXNativeTarget "Fcgo_ERPDemoUITests" */;
+			buildPhases = (
+				5D52FD12201EC7D70024CEBC /* Sources */,
+				5D52FD13201EC7D70024CEBC /* Frameworks */,
+				5D52FD14201EC7D70024CEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D52FD18201EC7D70024CEBC /* PBXTargetDependency */,
+			);
+			name = Fcgo_ERPDemoUITests;
+			productName = Fcgo_ERPDemoUITests;
+			productReference = 5D52FD16201EC7D70024CEBC /* Fcgo_ERPDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D52FCF1201EC7D70024CEBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fcg;
+				TargetAttributes = {
+					5D52FCF8201EC7D70024CEBC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5D52FD0A201EC7D70024CEBC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D52FCF8201EC7D70024CEBC;
+					};
+					5D52FD15201EC7D70024CEBC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D52FCF8201EC7D70024CEBC;
+					};
+				};
+			};
+			buildConfigurationList = 5D52FCF4201EC7D70024CEBC /* Build configuration list for PBXProject "Fcgo_ERPDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D52FCF0201EC7D70024CEBC;
+			productRefGroup = 5D52FCFA201EC7D70024CEBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D52FCF8201EC7D70024CEBC /* Fcgo_ERPDemo */,
+				5D52FD0A201EC7D70024CEBC /* Fcgo_ERPDemoTests */,
+				5D52FD15201EC7D70024CEBC /* Fcgo_ERPDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D52FCF7201EC7D70024CEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D52FD00201EC7D70024CEBC /* Assets.xcassets in Resources */,
+				5D52FD03201EC7D70024CEBC /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D52FD09201EC7D70024CEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D52FD14201EC7D70024CEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CBA7C364A0DA4FBA15A24BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fcgo_ERPDemo/Pods-Fcgo_ERPDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fcgo_ERPDemo/Pods-Fcgo_ERPDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A426ADFBDDB62666F0D3B504 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fcgo_ERPDemo/Pods-Fcgo_ERPDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71E231BABC251EB2D638F08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fcgo_ERPDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D52FCF5201EC7D70024CEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D52FD06201EC7D70024CEBC /* main.m in Sources */,
+				5D52FD4A201ED0680024CEBC /* Fcgo_payTools.m in Sources */,
+				5D52FD6D201EEE460024CEBC /* SSKeychain.m in Sources */,
+				5D52FD5A201ED1FC0024CEBC /* Fcgo_BasicVC.m in Sources */,
+				5D52FD79201EFF260024CEBC /* UITextField+CYAccessoryViewTextField.m in Sources */,
+				5D52FD46201ED0680024CEBC /* Fcgo_ClassTools.m in Sources */,
+				5D52FD4D201ED0680024CEBC /* Fcgo_RefreshNormalHeader.m in Sources */,
+				5D52FD55201ED1EA0024CEBC /* Fcgo_AFHTTPSessionManager.m in Sources */,
+				5D52FD7A201EFF260024CEBC /* UIView+Line.m in Sources */,
+				5D52FD4B201ED0680024CEBC /* Fcgo_publicNetworkTools.m in Sources */,
+				5D52FD77201EFF260024CEBC /* NSString+Request.m in Sources */,
+				5D52FD68201ED5A60024CEBC /* Fcgo_BrokenNetworkOrNoDataControl.m in Sources */,
+				5D52FD65201ED51B0024CEBC /* Fcgo_LoginVC.m in Sources */,
+				5D52FD56201ED1EA0024CEBC /* Fcgo_NetworkManager.m in Sources */,
+				5D52FD4E201ED0680024CEBC /* Fcgo_Tools.m in Sources */,
+				5D52FD47201ED0680024CEBC /* Fcgo_IndexButton.m in Sources */,
+				5D52FD4F201ED0680024CEBC /* Fcgo_UserTools.m in Sources */,
+				5D52FD78201EFF260024CEBC /* UILabel+Nature.m in Sources */,
+				5D52FCFE201EC7D70024CEBC /* AppDelegate.m in Sources */,
+				5D52FD62201ED4930024CEBC /* Fcgo_NavigationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D52FD07201EC7D70024CEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D52FD10201EC7D70024CEBC /* Fcgo_ERPDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D52FD12201EC7D70024CEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D52FD1B201EC7D70024CEBC /* Fcgo_ERPDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D52FD0D201EC7D70024CEBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D52FCF8201EC7D70024CEBC /* Fcgo_ERPDemo */;
+			targetProxy = 5D52FD0C201EC7D70024CEBC /* PBXContainerItemProxy */;
+		};
+		5D52FD18201EC7D70024CEBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D52FCF8201EC7D70024CEBC /* Fcgo_ERPDemo */;
+			targetProxy = 5D52FD17201EC7D70024CEBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D52FD01201EC7D70024CEBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D52FD02201EC7D70024CEBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D52FD1D201EC7D70024CEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D52FD1E201EC7D70024CEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D52FD20201EC7D70024CEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825CC322D0C5D14E6400D80E /* Pods-Fcgo_ERPDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344FHYYM5R;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Fcgo_ERPDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = Fcgo_ERPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddhshop.erp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D52FD21201EC7D70024CEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E41307FC3AE0B624E9805D /* Pods-Fcgo_ERPDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344FHYYM5R;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Fcgo_ERPDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = Fcgo_ERPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddhshop.erp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D52FD23201EC7D70024CEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344FHYYM5R;
+				INFOPLIST_FILE = Fcgo_ERPDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Fcgo-ERPDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fcgo_ERPDemo.app/Fcgo_ERPDemo";
+			};
+			name = Debug;
+		};
+		5D52FD24201EC7D70024CEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344FHYYM5R;
+				INFOPLIST_FILE = Fcgo_ERPDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Fcgo-ERPDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fcgo_ERPDemo.app/Fcgo_ERPDemo";
+			};
+			name = Release;
+		};
+		5D52FD26201EC7D70024CEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344FHYYM5R;
+				INFOPLIST_FILE = Fcgo_ERPDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Fcgo-ERPDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fcgo_ERPDemo;
+			};
+			name = Debug;
+		};
+		5D52FD27201EC7D70024CEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344FHYYM5R;
+				INFOPLIST_FILE = Fcgo_ERPDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Fcgo-ERPDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fcgo_ERPDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D52FCF4201EC7D70024CEBC /* Build configuration list for PBXProject "Fcgo_ERPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D52FD1D201EC7D70024CEBC /* Debug */,
+				5D52FD1E201EC7D70024CEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D52FD1F201EC7D70024CEBC /* Build configuration list for PBXNativeTarget "Fcgo_ERPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D52FD20201EC7D70024CEBC /* Debug */,
+				5D52FD21201EC7D70024CEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D52FD22201EC7D70024CEBC /* Build configuration list for PBXNativeTarget "Fcgo_ERPDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D52FD23201EC7D70024CEBC /* Debug */,
+				5D52FD24201EC7D70024CEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D52FD25201EC7D70024CEBC /* Build configuration list for PBXNativeTarget "Fcgo_ERPDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D52FD26201EC7D70024CEBC /* Debug */,
+				5D52FD27201EC7D70024CEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D52FCF1201EC7D70024CEBC /* Project object */;
+}

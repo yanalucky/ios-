@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		596B3DA62020235800FBE007 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DA52020235800FBE007 /* AppDelegate.m */; };
+		596B3DAE2020235800FBE007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596B3DAD2020235800FBE007 /* Assets.xcassets */; };
+		596B3DB12020235800FBE007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596B3DAF2020235800FBE007 /* LaunchScreen.storyboard */; };
+		596B3DB42020235800FBE007 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DB32020235800FBE007 /* main.m */; };
+		596B3DD8202023F800FBE007 /* Fcgo_ClassTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DBF202023F800FBE007 /* Fcgo_ClassTools.m */; };
+		596B3DD9202023F800FBE007 /* Fcgo_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DC0202023F800FBE007 /* Fcgo_Tools.m */; };
+		596B3DDA202023F800FBE007 /* Fcgo_UserTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DC5202023F800FBE007 /* Fcgo_UserTools.m */; };
+		596B3DDB202023F800FBE007 /* Fcgo_publicNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DC6202023F800FBE007 /* Fcgo_publicNetworkTools.m */; };
+		596B3DDC202023F800FBE007 /* Fcgo_NetTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DCA202023F800FBE007 /* Fcgo_NetTools.m */; };
+		596B3DDD202023F800FBE007 /* Fcgo_AFTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DCB202023F800FBE007 /* Fcgo_AFTools.m */; };
+		596B3DDE202023F800FBE007 /* Fcgo_MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DCF202023F800FBE007 /* Fcgo_MainVC.m */; };
+		596B3DDF202023F800FBE007 /* Fcgo_Default_UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DD3202023F800FBE007 /* Fcgo_Default_UI.m */; };
+		596B3DE0202023F800FBE007 /* Fcgo_BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DD6202023F800FBE007 /* Fcgo_BaseVC.m */; };
+		596B3DE920203EF100FBE007 /* Fcgo_AddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B3DE820203EF100FBE007 /* Fcgo_AddressPickerView.m */; };
+		65E5AD7A2ED42C108973CF91 /* Pods_Fcgo_erp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342386E06577295FE3E21921 /* Pods_Fcgo_erp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02A1C323420AA35EAFC29BB5 /* Pods-Fcgo_erp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fcgo_erp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fcgo_erp/Pods-Fcgo_erp.debug.xcconfig"; sourceTree = "<group>"; };
+		1CA5F1DEFB3CC97304B4F0B6 /* Pods-Fcgo_erp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fcgo_erp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fcgo_erp/Pods-Fcgo_erp.release.xcconfig"; sourceTree = "<group>"; };
+		342386E06577295FE3E21921 /* Pods_Fcgo_erp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fcgo_erp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		596B3DA12020235800FBE007 /* Fcgo_erp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fcgo_erp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		596B3DA42020235800FBE007 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		596B3DA52020235800FBE007 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		596B3DAD2020235800FBE007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		596B3DB02020235800FBE007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		596B3DB22020235800FBE007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596B3DB32020235800FBE007 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		596B3DBF202023F800FBE007 /* Fcgo_ClassTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_ClassTools.m; sourceTree = "<group>"; };
+		596B3DC0202023F800FBE007 /* Fcgo_Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_Tools.m; sourceTree = "<group>"; };
+		596B3DC1202023F800FBE007 /* Fcgo_publicNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_publicNetworkTools.h; sourceTree = "<group>"; };
+		596B3DC2202023F800FBE007 /* Fcgo_UserTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_UserTools.h; sourceTree = "<group>"; };
+		596B3DC3202023F800FBE007 /* Fcgo_ClassTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_ClassTools.h; sourceTree = "<group>"; };
+		596B3DC4202023F800FBE007 /* Fcgo_Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_Tools.h; sourceTree = "<group>"; };
+		596B3DC5202023F800FBE007 /* Fcgo_UserTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_UserTools.m; sourceTree = "<group>"; };
+		596B3DC6202023F800FBE007 /* Fcgo_publicNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_publicNetworkTools.m; sourceTree = "<group>"; };
+		596B3DC8202023F800FBE007 /* Fcgo_AFTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_AFTools.h; sourceTree = "<group>"; };
+		596B3DC9202023F800FBE007 /* Fcgo_NetTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_NetTools.h; sourceTree = "<group>"; };
+		596B3DCA202023F800FBE007 /* Fcgo_NetTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_NetTools.m; sourceTree = "<group>"; };
+		596B3DCB202023F800FBE007 /* Fcgo_AFTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_AFTools.m; sourceTree = "<group>"; };
+		596B3DCF202023F800FBE007 /* Fcgo_MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_MainVC.m; sourceTree = "<group>"; };
+		596B3DD0202023F800FBE007 /* Fcgo_MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_MainVC.h; sourceTree = "<group>"; };
+		596B3DD3202023F800FBE007 /* Fcgo_Default_UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_Default_UI.m; sourceTree = "<group>"; };
+		596B3DD4202023F800FBE007 /* Fcgo_BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_BaseVC.h; sourceTree = "<group>"; };
+		596B3DD5202023F800FBE007 /* Fcgo_Default_UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fcgo_Default_UI.h; sourceTree = "<group>"; };
+		596B3DD6202023F800FBE007 /* Fcgo_BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fcgo_BaseVC.m; sourceTree = "<group>"; };
+		596B3DE12020242200FBE007 /* Fcgo_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fcgo_Header.h; sourceTree = "<group>"; };
+		596B3DE22020243D00FBE007 /* Fcgo_Pch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fcgo_Pch.pch; sourceTree = "<group>"; };
+		596B3DE720203EF100FBE007 /* Fcgo_AddressPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fcgo_AddressPickerView.h; sourceTree = "<group>"; };
+		596B3DE820203EF100FBE007 /* Fcgo_AddressPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fcgo_AddressPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		596B3D9E2020235800FBE007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E5AD7A2ED42C108973CF91 /* Pods_Fcgo_erp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		596B3D982020235800FBE007 = {
+			isa = PBXGroup;
+			children = (
+				596B3DA32020235800FBE007 /* Fcgo_erp */,
+				596B3DA22020235800FBE007 /* Products */,
+				77BC608464CE910DCB4F1A98 /* Pods */,
+				5EADFD85B7F5EC511F8ABFBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		596B3DA22020235800FBE007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DA12020235800FBE007 /* Fcgo_erp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		596B3DA32020235800FBE007 /* Fcgo_erp */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DBD202023ED00FBE007 /* delegate */,
+				596B3DD2202023F800FBE007 /* base */,
+				596B3DCC202023F800FBE007 /* work */,
+				596B3DBE202023F800FBE007 /* dev_tools */,
+				596B3DC7202023F800FBE007 /* net_tools */,
+				596B3DE420203E6500FBE007 /* animation */,
+				596B3DD7202023F800FBE007 /* files */,
+				596B3DBA2020238400FBE007 /* other */,
+			);
+			path = Fcgo_erp;
+			sourceTree = "<group>";
+		};
+		596B3DBA2020238400FBE007 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DAD2020235800FBE007 /* Assets.xcassets */,
+				596B3DAF2020235800FBE007 /* LaunchScreen.storyboard */,
+				596B3DB22020235800FBE007 /* Info.plist */,
+				596B3DB32020235800FBE007 /* main.m */,
+				596B3DE12020242200FBE007 /* Fcgo_Header.h */,
+				596B3DE22020243D00FBE007 /* Fcgo_Pch.pch */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		596B3DBD202023ED00FBE007 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DA42020235800FBE007 /* AppDelegate.h */,
+				596B3DA52020235800FBE007 /* AppDelegate.m */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
+		596B3DBE202023F800FBE007 /* dev_tools */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DC4202023F800FBE007 /* Fcgo_Tools.h */,
+				596B3DC0202023F800FBE007 /* Fcgo_Tools.m */,
+				596B3DC3202023F800FBE007 /* Fcgo_ClassTools.h */,
+				596B3DBF202023F800FBE007 /* Fcgo_ClassTools.m */,
+				596B3DC2202023F800FBE007 /* Fcgo_UserTools.h */,
+				596B3DC5202023F800FBE007 /* Fcgo_UserTools.m */,
+				596B3DC1202023F800FBE007 /* Fcgo_publicNetworkTools.h */,
+				596B3DC6202023F800FBE007 /* Fcgo_publicNetworkTools.m */,
+			);
+			path = dev_tools;
+			sourceTree = "<group>";
+		};
+		596B3DC7202023F800FBE007 /* net_tools */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DC8202023F800FBE007 /* Fcgo_AFTools.h */,
+				596B3DCB202023F800FBE007 /* Fcgo_AFTools.m */,
+				596B3DC9202023F800FBE007 /* Fcgo_NetTools.h */,
+				596B3DCA202023F800FBE007 /* Fcgo_NetTools.m */,
+			);
+			path = net_tools;
+			sourceTree = "<group>";
+		};
+		596B3DCC202023F800FBE007 /* work */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DCE202023F800FBE007 /* main */,
+				596B3DE320203DF200FBE007 /* order */,
+				596B3DD1202023F800FBE007 /* store（门店） */,
+				596B3DCD202023F800FBE007 /* worker（员工） */,
+			);
+			path = work;
+			sourceTree = "<group>";
+		};
+		596B3DCD202023F800FBE007 /* worker（员工） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "worker（员工）";
+			sourceTree = "<group>";
+		};
+		596B3DCE202023F800FBE007 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DCF202023F800FBE007 /* Fcgo_MainVC.m */,
+				596B3DD0202023F800FBE007 /* Fcgo_MainVC.h */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		596B3DD1202023F800FBE007 /* store（门店） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "store（门店）";
+			sourceTree = "<group>";
+		};
+		596B3DD2202023F800FBE007 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DD4202023F800FBE007 /* Fcgo_BaseVC.h */,
+				596B3DD6202023F800FBE007 /* Fcgo_BaseVC.m */,
+				596B3DD5202023F800FBE007 /* Fcgo_Default_UI.h */,
+				596B3DD3202023F800FBE007 /* Fcgo_Default_UI.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		596B3DD7202023F800FBE007 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DEA20203F9500FBE007 /* category */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+		596B3DE320203DF200FBE007 /* order */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = order;
+			sourceTree = "<group>";
+		};
+		596B3DE420203E6500FBE007 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DE620203EBD00FBE007 /* Fcgo_AlertView */,
+				596B3DE520203E9E00FBE007 /* Fcgo_AddressPickerView */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		596B3DE520203E9E00FBE007 /* Fcgo_AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				596B3DE720203EF100FBE007 /* Fcgo_AddressPickerView.h */,
+				596B3DE820203EF100FBE007 /* Fcgo_AddressPickerView.m */,
+			);
+			path = Fcgo_AddressPickerView;
+			sourceTree = "<group>";
+		};
+		596B3DE620203EBD00FBE007 /* Fcgo_AlertView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fcgo_AlertView;
+			sourceTree = "<group>";
+		};
+		596B3DEA20203F9500FBE007 /* category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		5EADFD85B7F5EC511F8ABFBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342386E06577295FE3E21921 /* Pods_Fcgo_erp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77BC608464CE910DCB4F1A98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02A1C323420AA35EAFC29BB5 /* Pods-Fcgo_erp.debug.xcconfig */,
+				1CA5F1DEFB3CC97304B4F0B6 /* Pods-Fcgo_erp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		596B3DA02020235800FBE007 /* Fcgo_erp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596B3DB72020235800FBE007 /* Build configuration list for PBXNativeTarget "Fcgo_erp" */;
+			buildPhases = (
+				DFCF0404D99D0FDB8B3458B8 /* [CP] Check Pods Manifest.lock */,
+				596B3D9D2020235800FBE007 /* Sources */,
+				596B3D9E2020235800FBE007 /* Frameworks */,
+				596B3D9F2020235800FBE007 /* Resources */,
+				EB4C9863E840FAD7EDDA3B1F /* [CP] Embed Pods Frameworks */,
+				F856722BEAD2AB0E09E56DD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fcgo_erp;
+			productName = Fcgo_erp;
+			productReference = 596B3DA12020235800FBE007 /* Fcgo_erp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		596B3D992020235800FBE007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = huafanxiao;
+				TargetAttributes = {
+					596B3DA02020235800FBE007 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 596B3D9C2020235800FBE007 /* Build configuration list for PBXProject "Fcgo_erp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 596B3D982020235800FBE007;
+			productRefGroup = 596B3DA22020235800FBE007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				596B3DA02020235800FBE007 /* Fcgo_erp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		596B3D9F2020235800FBE007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596B3DB12020235800FBE007 /* LaunchScreen.storyboard in Resources */,
+				596B3DAE2020235800FBE007 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFCF0404D99D0FDB8B3458B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fcgo_erp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB4C9863E840FAD7EDDA3B1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fcgo_erp/Pods-Fcgo_erp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fcgo_erp/Pods-Fcgo_erp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F856722BEAD2AB0E09E56DD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fcgo_erp/Pods-Fcgo_erp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		596B3D9D2020235800FBE007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596B3DDE202023F800FBE007 /* Fcgo_MainVC.m in Sources */,
+				596B3DE0202023F800FBE007 /* Fcgo_BaseVC.m in Sources */,
+				596B3DB42020235800FBE007 /* main.m in Sources */,
+				596B3DDC202023F800FBE007 /* Fcgo_NetTools.m in Sources */,
+				596B3DDA202023F800FBE007 /* Fcgo_UserTools.m in Sources */,
+				596B3DDF202023F800FBE007 /* Fcgo_Default_UI.m in Sources */,
+				596B3DD8202023F800FBE007 /* Fcgo_ClassTools.m in Sources */,
+				596B3DD9202023F800FBE007 /* Fcgo_Tools.m in Sources */,
+				596B3DE920203EF100FBE007 /* Fcgo_AddressPickerView.m in Sources */,
+				596B3DDB202023F800FBE007 /* Fcgo_publicNetworkTools.m in Sources */,
+				596B3DA62020235800FBE007 /* AppDelegate.m in Sources */,
+				596B3DDD202023F800FBE007 /* Fcgo_AFTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		596B3DAF2020235800FBE007 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				596B3DB02020235800FBE007 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		596B3DB52020235800FBE007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		596B3DB62020235800FBE007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		596B3DB82020235800FBE007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A1C323420AA35EAFC29BB5 /* Pods-Fcgo_erp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344FHYYM5R;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Fcgo_erp/Fcgo_Pch.pch";
+				INFOPLIST_FILE = Fcgo_erp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fcgo.Fcgo-erp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		596B3DB92020235800FBE007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA5F1DEFB3CC97304B4F0B6 /* Pods-Fcgo_erp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344FHYYM5R;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Fcgo_erp/Fcgo_Pch.pch";
+				INFOPLIST_FILE = Fcgo_erp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fcgo.Fcgo-erp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		596B3D9C2020235800FBE007 /* Build configuration list for PBXProject "Fcgo_erp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596B3DB52020235800FBE007 /* Debug */,
+				596B3DB62020235800FBE007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596B3DB72020235800FBE007 /* Build configuration list for PBXNativeTarget "Fcgo_erp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596B3DB82020235800FBE007 /* Debug */,
+				596B3DB92020235800FBE007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 596B3D992020235800FBE007 /* Project object */;
+}

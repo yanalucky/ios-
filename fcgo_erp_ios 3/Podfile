@@ -1,0 +1,12 @@
+platform :ios, ‘8.0’
+target 'Fcgo_erp' do
+use_frameworks!
+
+
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'IQKeyboardManager', '~> 5.0.2'
+pod 'MJRefresh'
+end

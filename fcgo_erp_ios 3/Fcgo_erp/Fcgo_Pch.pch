@@ -1,0 +1,39 @@
+//
+//  Fcgo_Pch.pch
+//  Fcgo_erp
+//
+//  Created by huafanxiao on 2018/1/30.
+//  Copyright © 2018年 huafanxiao. All rights reserved.
+//
+
+#ifndef Fcgo_Pch_pch
+#define Fcgo_Pch_pch
+
+//导入基本类
+
+#import "Fcgo_Header.h"
+#import "Fcgo_BaseVC.h"
+
+//导入自定义动画类
+
+//导入工具类
+#import "Fcgo_Tools.h"
+#import "Fcgo_UserTools.h"
+#import "Fcgo_ClassTools.h"
+#import "Fcgo_NetTools.h"
+#import "Fcgo_publicNetworkTools.h"
+
+//导入第三方
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "Masonry.h"
+#import "UIButton+WebCache.h"
+#import "UIImageView+WebCache.h"
+#import "IQKeyboardManager.h"
+#import "MBProgressHUD.h"
+
+//导入SDK
+
+#endif
+
+

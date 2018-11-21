@@ -1,0 +1,36 @@
+Git status
+Git add
+Git commit 
+
+ git diff 比较的是工作目录中当前文件和暂存区域快照之间的差异，也就是修改之后还没有暂存起来的变化内容
+ git diff —staged 已经暂存起来的文件和上次提交时的快照之间的差异
+
+
+Git rm readme.txt 然后 git commit 可以删除当前文件及git仓库的文件，
+Git rm —cached readme.txt  可以仅仅删除git仓库的文件，而不删除当前文件
+
+
+git mv tst.txt t3.txt 然后Git commit可以给文件重命名
+        相当于 mv tst.txt t3.txt
+                    Git rm tst.txt
+                    Git add t3.txt
+
+
+撤销
+git checkout -- t3.txt   用仓库的文件覆盖本地文件
+git reset HEAD t3.txt 取消暂存的文件,然后可以重新修改提交。
+
+
+
+分支
+  git branch haha 创建haha分支
+  Git checkout haha 切换到分支haha上
+  Git checkout -b haha 使用默认的分支创建 并切换到b2分支上
+  Git checkout -b hot origin/hot 从指定的分支创建新的分支。
+    
+  Git merge haha；在当前分支下合并分支haha。
+
+远程合并
+   Git remote -v 查看远程仓库
+   Git fetch <远程仓库> ;获取远程仓库的内容，但不合并到本地仓库的分支。本质上远程仓库的分支也是本地的一个分支（比如分支名称是 origin/分支1）而已。fetch动作就是更新本地的这个分支。
+   Git merge origin/分支1；讲远程仓库的分支1合并到当前分支。

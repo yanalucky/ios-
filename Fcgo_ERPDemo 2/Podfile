@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+platform :ios, ‘8.0’
+target 'Fcgo_ERPDemo' do
+use_frameworks!
+
+
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'IQKeyboardManager', '~> 5.0.2'
+pod 'MJRefresh'
+end
